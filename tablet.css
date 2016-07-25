@@ -1,6 +1,6 @@
-/* For tablets: */
+/* For tablets: min-device-width: 768px*/
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
     .col-t-1 {
         width: 8.33%;
     }
@@ -39,13 +39,13 @@
     }
     .footer {
         background-color: lightgreen;
-        min-height: 100px;
+        min-height: 50px;
             padding: 5px;
 
     }
     .header {
         background-color: lightgreen;
-        min-height: 100px;
+        min-height: 50px;
             padding: 5px;
 
     }

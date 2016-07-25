@@ -42,13 +42,13 @@
     
     .footer {
         background-color: silver;
-        min-height: 50px;
+        min-height: 25px;
             padding: 5px;
 
     }
     .header {
         background-color: silver;
-        min-height: 50px;
+        min-height: 25px;
             padding: 5px;
 
     }
