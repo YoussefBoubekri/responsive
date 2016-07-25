@@ -40,14 +40,19 @@
     .footer {
         background-color: lightblue;
         min-height: 100px;
-    padding: 5px;
-
+        padding: 5px;
     }
     .header {
         background-color: lightblue;
-        min-height: 100px;
-    padding: 5px;
-
+        height: 100px;
+        padding: 5px;
+        position: fixed;
+    }
+    .smallerHeader{
+        background-color: lightblue;
+        height: 50px;
+        padding: 5px;
+        position: fixed;
     }
     .col-d-hide {
         display: none;

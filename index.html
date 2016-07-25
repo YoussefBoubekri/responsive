@@ -41,6 +41,17 @@
             </div>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script>
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 50) {
+                $(".header").addClass("smallerHeader");
+            } else {
+                $(".header").removeClass("smallerHeader");
+            }
+        });
+    </script>
 </body>
 
 </html>
