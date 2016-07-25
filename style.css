@@ -1,7 +1,15 @@
+/*general css styling applies to all devices*/
+
+
 /* include border and padding in width */
 
 * {
     box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
 }
 
 .row::after {
@@ -13,3 +21,13 @@
 [class*="col-"] {
     float: left;
 }
+
+.dark {
+    background-color: dodgerblue;
+}
+
+.view {
+    height: 100vh;
+    padding: 10px;
+}
+
