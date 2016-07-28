@@ -21,9 +21,19 @@
             <div class="col-d-hide col-t-hide col-m-12">menu mobile</div>
         </div>
     </div>
+    <div class="spacer">
+        &nbsp;
+    </div>
     <div class="col-d-12 col-t-12 col-m-12">
         <div class="row">
-            <div class="col-d-12 col-t-12 col-m-12 view dark">content</div>
+            <div class="col-d-12 col-t-12 col-m-12 view dark">
+                <div class="row">
+                    <div class="col-d-3 col-t-3 col-m-12">content white 1</div>
+                    <div class="col-d-3 col-t-3 col-m-12">content white 2</div>
+                    <div class="col-d-3 col-t-3 col-m-12">content white 3</div>
+                    <div class="col-d-3 col-t-3 col-m-12">content white 4</div>
+                </div>
+            </div>
             <div class="col-d-12 col-t-12 col-m-12 view">content white</div>
             <div class="col-d-12 col-t-12 col-m-12 view dark">content</div>
         </div>
@@ -53,11 +63,11 @@
             if (scroll >= 50) {
                 $(".header").addClass("smallerHeader");
                 $(".logo").addClass("logoSmall");
-                
+
             } else {
                 $(".header").removeClass("smallerHeader");
                 $(".logo").removeClass("logoSmall");
-                
+
             }
 
             if ($(this).scrollTop()) {
